@@ -1,0 +1,289 @@
+/*
+* {
+	border: 1px black solid;
+}
+*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+/* [][] Color Presets [][] */
+.blackout {
+	background-color: #000000;
+}
+.red {
+	background-color: #FF0000;
+}
+/* [][] End of Color Presets [][] */
+
+/* [][] THESE ARE SPACING RESETS [][] */
+.no-pad {
+	padding: 0px;
+}
+.no-mar {
+	margin: 0px;
+}
+.center {
+	text-align: center;
+}
+/* [][] END OF SPACING RESETS [][] */
+
+/* HEADER PRESETS */
+
+h1 em {
+	font-size: 2.5em;
+	font-family: 'Satisfy', cursive;
+}
+h1 {
+	font-size: 1.5em;
+	font-family: 'Amatic SC', cursive;
+}
+h3 {
+	font: .8em #000000 Verdana, sans-serif;
+}
+
+/* END HEADER PRESETS */
+
+/* [][] Beginning of PERSISTENT NAVIGATION [][]*/
+
+.avatar {
+	margin:5px;
+}
+.caros {
+	height: 250px;
+}
+.top-bar {
+	background-color: #000000;
+}
+.pers_nav3 a {
+	text-transform: uppercase;
+}
+.menu li a {
+	color: #ffffff;
+}
+.pers_bar {
+	height: 10px;
+	background-image: url("../images/thai_chillies2.png");
+}
+.pers_nav2 a {
+	height: 80px;
+}
+.pers_nav0 {
+	background-color: #000000;
+}
+/* [][] End of PERSISTENT NAGIVATION [][]*/
+
+/* [][] Beginning of HOME PAGE STYLING [][] */
+.huge-heading {
+	padding-top: 40px;
+	height: 300px;
+	font-family: 'Satisfy', cursive;
+	color: #ffffff;
+	font-size: 10em;
+}
+.widg {
+	height: 150px;
+	padding-top: 20px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+}
+.widg p {
+	font-size: 2em;
+}
+.address-text {
+	padding-top: 15px;
+}
+.marg {
+	margin: 10px;
+}
+.address-text {
+	top: 15px;
+}
+.section3a{
+	top: -135px;
+	margin: 0 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	padding: 150px 0;
+}
+.rev_1 {
+	background-color: #ffffff;
+	height: 100px;
+}
+.rev_1 p {
+	color: blue;
+}
+
+.section4a, .section4b, .section4c {
+	padding-top: 160px;
+}
+.address-text {
+
+	top: 40px;
+}
+.row-small {
+	height: 120px;
+
+}
+/* [][] End of HOME PAGE STYLING [][] */
+
+
+
+/*-- NEW CODE TO ADD TO MASTER --*/
+
+
+
+/* [][] Beginning of MENU STYLE [][] */
+
+.menu_title {
+	font-size: 4em;
+ 	font-family: 'Satisfy', cursive;
+	text-align: center;
+	height: 75px;
+
+	color: #ffffff;
+
+}
+.menu_400 {
+	height: 400px;
+}
+
+.menu_800 {
+	height: 800px;
+}
+
+.menu_1000 {
+	height: 1000px;
+}
+
+.menu_box {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #ffffff;
+}
+
+.menu_subtitle {
+	font-size: 2.5em;
+ 	font-family: 'Satisfy', cursive;
+	text-align: center;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.the_menu li {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+.the_menu li em {
+	font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+/* [][] END MENU STYLE [][] */
+
+
+
+/*-- END OF NEW CODE TO ADD TO MASTER --*/
+
+
+/* [][] Beginning of ABOUT SECTION [][] */
+.about {
+	height: 568px;
+}
+figcaption {
+	height: 568px;
+	background-image: url("../images/noodle_1.png");
+	overflow: hidden;
+}
+figcaption p {
+	height: 468px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.8);
+	text-indent: 40px;
+	text-align: justify;
+	color: #ffffff;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.3em;
+}
+figcaption h2 {
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.mini_circle {
+	margin: 70px 0px 0px 10%;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+}
+footer {
+	height: 220px;
+	background-image: url("../images/thai_chillies.png");
+}
+footer p{
+text-align: center;
+margin: auto;
+color: #ffffff;
+}
+.credit {
+	margin-top: 20px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+/* [][] End of ABOUT SECTION [][] */
+
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 640px) {
+			.title-bar-title img {
+				margin-left: 500px;
+			}
+
+			.chef {
+				padding-top: 10px;
+				height: 568px;
+				background-color: #000000;
+				background-image:url("../images/noodle_3.png")
+			}
+
+			figcaption p {
+						padding: 30px;
+			}
+			footer {
+				height: 120px;
+			}
+			.mini_circle {
+				margin: 15px 0px 0px 15px;
+			}
+}
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		.chai {
+			margin-left: 5%;
+		}
+		figcaption p {
+					padding: 45px;
+					font-size: 1.8em;
+		}
+
+		.chef {
+			padding-top: 10px;
+			height: 568px;
+			background-color: #000000;
+			background-image:url("../images/noodle_3.png")
+		}
+
+		footer {
+			height: 90px;
+		}
+
+}

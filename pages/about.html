@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/normalize.css" media="screen">
+    <link rel="stylesheet" href="../css/foundation.css" media="screen">
+    <link rel="stylesheet" href="../css/app.css" media="screen">
+    <link rel="stylesheet" href="../css/main.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amatic+SC|Libre+Franklin|Special+Elite|Satisfy" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/jquery.backstretch.min.js"></script>
+
+  </head>
+
+<body>
+
+  <script>
+  $.backstretch([
+      "../images/a.jpg"
+    , "../images/b.jpg"
+    , "../images/c.png"
+
+  ], {duration: 3000, fade: 750});
+  </script>
+
+  <nav class="row">
+  <section class="columns large-12 medium-12 small-12 no-mar no-pad">
+
+    <div class="title-bar" data-responsive-toggle="mobile_menu" data-hide-for="large">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title"><a href="../index.html"><img class="avatar" src="../images/chai_thai4.png" alt="Chai Thai Logo" /></a></div>
+    </div>
+
+      <div class="top-bar pers_nav blackout" id="mobile_menu">
+
+        <div class="top-bar-left">
+          <!--<a class="chai show-for-large" href="../index.html"><img class="show-for-large" src="../images/chai_thai4.png" alt="Chai Thai Logo" /></a>-->
+          <ul class="dropdown menu" data-dropdown-menu>
+          </ul>
+        </div>
+
+        <div class="top-bar-right">
+          <ul class="expanded menu menu2">
+            <li class="pers_nav3 blackout center"><a href="../index.html">Home</a></li>
+            <li class="pers_nav3 blackout center"><a href="menu.html">Menu</a></li>
+            <li class="pers_nav3 blackout center"><a href="about.html">About</a></li>
+            <li class="pers_nav3 blackout center"><a href="../index.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+  </section>
+</nav>
+
+<section class="row spacer_1">
+  <div class="columns large-12 medium-12 small-12 red pers_bar">
+  </div>
+</section>
+
+<section class="row spacer_2">
+  <figure class="columns large-12 medium-12 small-12 no-mar no-pad caros">
+
+    <script>
+    $(".caros").backstretch([
+      "../images/yelp_1.png",
+      "../images/yelp_2.png",
+      "../images/yelp_3.png",
+      "../images/yelp_4.png",
+      "../images/yelp_5.png",
+      "../images/yelp_6.png"
+      ], {
+        fade: 800,
+        duration: 4500
+    });
+</script>
+
+  <!--  <img src="images/noodle_2.png" alt="" />-->
+  </figure>
+</section>
+
+<!-- Beginning of About Section -->
+<section class="row">
+  <figure class ="columns large-4 medium-6 small-12 no-mar no-pad chef">
+    <img data-interchange ="[../images/chef_2.png, small], [../images/chef_2.png, medium], [../images/chef_4.png, large]">
+    <!--<img src="../images/chef_2.png">-->
+  </figure>
+  <figcaption class="columns large-8 medium-6 small-12 no-mar no-pad about">
+    <h2>"A Little Bit About Us"</h2>
+  <p>Thai culture has always told us that the heart of a country lies in it’s food and to taste the culture one only needs to be ready for the heat that comes from out staple Thai chilies. One of the most complicated yet beautiful marriages of our food is how well spicy flavors can fuse with sweet and savory flavors. Two grand staples of our country are: the lush basil leaf, which can be found as a complimenting garnish to most dishes we serve in our establishment and the immensely popular Thai chili which is capable of heightening any heat element of any dish. We hope that every bite of our dishes will bring you on a fantastic journey through the flavors of Thailand’s beautiful regions. We at Chai Thai Noodles are a family focused on producing authentic dishes that bring the pure taste of Thailand to America with every meal. We invite you all to visit and celebrate our culture with us at either of our two locations in the Bay Area!
+  <br><em>-Chai Thai Noodles</em></p>
+  </figcaption>
+
+
+
+</section>
+<!-- End of About Section -->
+
+
+<footer class="row">
+
+<div class="columns large-6 medium-6 small-12 social">
+  <a class="" href="https://www.yelp.com/biz/chai-thai-noodles-hayward">
+    <img class="mini_circle" src="../images/yelp.png" alt="yelp icon" />
+  </a>
+
+  <a class="" href="https://www.instagram.com/chaithainoodles/?ref=badge">
+    <img class="mini_circle" src="../images/instagram.png" alt="instagram icon" />
+  </a>
+
+  <a class="" href="https://www.pinterest.com/alex_cyan/chai-thai-noodles-conceptual-data/">
+    <img class="mini_circle" src="../images/pinterest.png" alt="pinterest icon" />
+  </a>
+</div>
+
+  <p class="columns large-1 medium-3 small-6 credit">Designed By</p>
+  <p class="columns large-5 medium-3 small-6 credit">
+    Clemete Garcia-Huerta<br>Diego Menocal<br>Alex Yan
+  </p>
+</footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
